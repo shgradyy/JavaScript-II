@@ -1,6 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const schoolName = 'Lambda Elementary School';
+let schoolBus = (numStudents, driverName) => `${driverName} has ${numStudents} students on board enroute to ${schoolName}.`
+  const wheelsOnBuss = "The wheels on the bus go round and round, round and round, round and round!";
+  let groupSinging = (driverName, song) => `${driverName} says ${song}`;
+
+console.log(schoolBus(17, 'Mr. Johns'));
+console.log(groupSinging('Mr. Grady', wheelsOnBuss));
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
